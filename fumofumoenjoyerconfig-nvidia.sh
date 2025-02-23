@@ -9,6 +9,10 @@ yay -Syyu alsa-plugins flatpak  giflib   glfw   gst-plugins-base-libs  rclone li
 
 cd
 
+mkdir gdrive
+
+cd
+
 flatpak install --user https://sober.vinegarhq.org/sober.flatpakref
 
 cd

@@ -15,16 +15,13 @@ makepkg -si
 
 cd
 
-rustup default stable
-rustup target add wasm32-unknown-unknown
-
-cd
 
 yay -Syyu alsa-plugins gamemode flatpak vulkan-tools visual-studio-code-bin librewolf-bin timeshift timeshift-autosnap timeshift-systemd-timer emacs rustup docker podman distrobox helm kubectl llvm clang base-devel git github-cli google-gemini-cli wine alsa-lib alsa-plugins cups dosbox gnutls gst-plugins-bad gst-plugins-base gst-plugins-base-libs gst-plugins-good gst-plugins-ugly libgphoto2 libpulse libxcomposite libxinerama opencl-icd-loader pcsclite samba sane sdl2 unixodbc v4l-utils wine-gecko
 
 cd
 
-
+rustup default stable
+rustup target add wasm32-unknown-unknown
 
 cd
 

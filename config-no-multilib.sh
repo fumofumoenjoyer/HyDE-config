@@ -38,7 +38,6 @@ flatpak install app/com.stremio.Stremio
 flatpak install sober
 flatpak install bottles
 flatpak install brave
-flatpak install heroic
 flatpak install flathub org.onlyoffice.desktopeditors
 
 cd

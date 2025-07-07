@@ -37,7 +37,6 @@ flatpak install proton-ge
 flatpak install app/com.stremio.Stremio
 flatpak install sober
 flatpak install bottles
-flatpak install brave
 flatpak install flathub org.onlyoffice.desktopeditors
 
 cd

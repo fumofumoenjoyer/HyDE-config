@@ -18,6 +18,7 @@ yay -Syyu flatpak vulkan-icd-loader grub-btrfs vulkan-driver ffmpeg visual-studi
 
 cd
 
+rustup update
 rustup default stable
 rustup target add wasm32-unknown-unknown
 
@@ -25,6 +26,7 @@ cd
 
 cargo install dioxus-cli
 cargo install cargo-update
+cargo install-update -a
 
 cd
 

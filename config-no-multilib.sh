@@ -13,7 +13,7 @@ makepkg -si
 
 cd
 
-yay -Syyu flatpak vulkan-icd-loader grub-btrfs vulkan-driver ffmpeg visual-studio-code-bin clang llvm rustup helm kubectl docker python mesa mesa-utils mpv obs-studio google-gemini-cli github-cli timeshift timeshift-autosnap timeshift-systemd-timer dnsmasq virt-manager qemu-full libvirt
+yay -Syyu flatpak vulkan-icd-loader grub-btrfs vulkan-driver ffmpeg visual-studio-code-bin clang llvm rustup helm kubectl podman python mesa mesa-utils mpv obs-studio google-gemini-cli github-cli timeshift timeshift-autosnap timeshift-systemd-timer dnsmasq virt-manager qemu-full libvirt
 
 cd
 
@@ -50,7 +50,7 @@ cd
 sudo systemctl daemon-reload
 sudo systemctl enable timeshift-boot.timer
 sudo systemctl enable timeshift-hourly.timer
-sudo systemctl enable docker
+sudo systemctl enable podman
 sudo systemctl enable libvirtd
 sudo systemctl enable virtqemud
 sudo systemctl enable virtxend

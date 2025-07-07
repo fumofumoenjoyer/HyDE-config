@@ -24,6 +24,7 @@ rustup target add wasm32-unknown-unknown
 cd
 
 cargo install dioxus-cli
+cargo install cargo-update
 
 cd
 

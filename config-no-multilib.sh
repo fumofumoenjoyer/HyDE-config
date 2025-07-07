@@ -5,7 +5,7 @@ cd
 sudo pacman-key --init && sudo pacman-key --populate
 
 cd
-
+rm -rf yay
 sudo pacman -Syyu --needed base-devel git
 git clone https://aur.archlinux.org/yay.git
 cd yay

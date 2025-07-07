@@ -9,6 +9,7 @@ cd
 sudo pacman -Syyu --needed base-devel git
 git clone https://aur.archlinux.org/yay.git
 cd yay
+git pull
 makepkg -si
 
 cd

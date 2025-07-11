@@ -14,7 +14,7 @@ makepkg -si
 
 cd
 
-yay -Syyu flatpak vulkan-icd-loader grub-btrfs vulkan-driver ffmpeg visual-studio-code-bin clang llvm rustup helm kubectl podman podman-docker podman-compose podman-desktop kind-bin docker-compose buildah python mesa mesa-utils mpv obs-studio google-gemini-cli github-cli timeshift timeshift-autosnap timeshift-systemd-timer dnsmasq virt-manager qemu-full libvirt
+yay -Syyu flatpak vulkan-icd-loader grub-btrfs vulkan-driver ffmpeg visual-studio-code-bin clang llvm rustup helm kubectl podman podman-docker podman-compose podman-desktop kind-bin docker-compose buildah python mesa mesa-utils mpv obs-studio gemini-cli github-cli timeshift timeshift-autosnap timeshift-systemd-timer dnsmasq virt-manager qemu-full libvirt
 
 cd
 

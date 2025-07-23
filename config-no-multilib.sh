@@ -14,7 +14,7 @@ makepkg -si
 
 cd
 
-yay -Syyu flatpak vulkan-icd-loader grub-btrfs vulkan-driver ffmpeg visual-studio-code-bin clang llvm rustup helm kubectl podman podman-docker podman-compose podman-desktop kind-bin docker-compose buildah python mesa mesa-utils mpv obs-studio gemini-cli github-cli timeshift timeshift-autosnap timeshift-systemd-timer dnsmasq virt-manager qemu-full libvirt
+yay -Syyu flatpak vulkan-icd-loader vulkan-driver ffmpeg visual-studio-code-bin clang llvm rustup helm kubectl podman podman-docker podman-compose podman-desktop kind-bin docker-compose buildah python mesa mesa-utils mpv obs-studio gemini-cli github-cli timeshift timeshift-autosnap timeshift-systemd-timer dnsmasq virt-manager qemu-full libvirt
 
 cd
 
@@ -68,8 +68,6 @@ sudo systemctl enable virtnodedevd
 sudo systemctl enable virtnwfilterd
 sudo systemctl enable virtsecretd
 sudo systemctl enable virtstoraged
-sudo systemctl enable grub-btrfsd
-sudo systemctl start grub-btrfsd
 
 cd
 
